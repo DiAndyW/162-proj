@@ -1,0 +1,4 @@
+provider,model,rouge1_fmeasure,rouge2_fmeasure,rougeL_fmeasure,meteor,bertscore_f1,rouge1_fmeasure_rank,rouge2_fmeasure_rank,rougeL_fmeasure_rank,meteor_rank,bertscore_f1_rank,average_rank
+ollama,llama3.1:latest,0.3926,0.133,0.2553,0.2378,0.891,1,1,1,1,1,1.0
+openai,gpt-4o-mini-2024-07-18,0.3845,0.1249,0.2487,0.228,0.8904,2,2,2,2,2,2.0
+ollama,gemma2:9b,0.3615,0.1209,0.2435,0.2072,0.8898,3,3,3,3,3,3.0
