@@ -5,3 +5,5 @@ transformers
 rouge-score
 bert-score
 matplotlib
+requests
+kaggle
