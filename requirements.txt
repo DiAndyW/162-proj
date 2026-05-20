@@ -1,0 +1,7 @@
+jupyter
+pandas
+datasets
+transformers
+rouge-score
+bert-score
+matplotlib
