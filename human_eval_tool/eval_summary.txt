@@ -1,0 +1,71 @@
+Human Eval Summary
+============================
+Total judgments: 120
+Articles across all files: 30
+
+overall_preference
+  writer: 33 (27.5%)
+  ai: 78 (65.0%)
+  Tie: 6 (5.0%)
+  Unsure: 3 (2.5%)
+
+factuality_preference 
+  writer: 18 (15.0%)
+  ai: 46 (38.3%)
+  Tie: 55 (45.8%)
+  Unsure: 1 (0.8%)
+
+coverage_preference
+  writer: 30 (25.0%)
+  ai: 79 (65.8%)
+  Tie: 10 (8.3%)
+  Unsure: 1 (0.8%)
+
+Model-level decoded preference rates
+
+overall_preference
+  gemma2:9b: writer 12 (31.6%), ai 26 (68.4%), ties 1, unsure 1
+  gpt-4o-mini-2024-07-18: writer 7 (17.9%), ai 32 (82.1%), ties 0, unsure 1
+  llama3.1:latest: writer 14 (41.2%), ai 20 (58.8%), ties 5, unsure 1
+
+factuality_preference
+  gemma2:9b: writer 10 (47.6%), ai 11 (52.4%), ties 18, unsure 1
+  gpt-4o-mini-2024-07-18: writer 3 (12.5%), ai 21 (87.5%), ties 16, unsure 0
+  llama3.1:latest: writer 5 (26.3%), ai 14 (73.7%), ties 21, unsure 0
+
+coverage_preference
+  gemma2:9b: writer 12 (34.3%), ai 23 (65.7%), ties 4, unsure 1
+  gpt-4o-mini-2024-07-18: writer 8 (21.1%), ai 30 (78.9%), ties 2, unsure 0
+  llama3.1:latest: writer 10 (27.8%), ai 26 (72.2%), ties 4, unsure 0
+
+Evaluator-level decoded source choices
+
+andy
+  overall_preference: writer 9 (30.0%), ai 18 (60.0%), Tie 3 (10.0%), Unsure 0 (0.0%)
+  factuality_preference: writer 9 (30.0%), ai 17 (56.7%), Tie 4 (13.3%), Unsure 0 (0.0%)
+  coverage_preference: writer 9 (30.0%), ai 18 (60.0%), Tie 3 (10.0%), Unsure 0 (0.0%)
+
+grace
+  overall_preference: writer 6 (20.0%), ai 20 (66.7%), Tie 2 (6.7%), Unsure 2 (6.7%)
+  factuality_preference: writer 0 (0.0%), ai 0 (0.0%), Tie 30 (100.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 4 (13.3%), ai 19 (63.3%), Tie 6 (20.0%), Unsure 1 (3.3%)
+
+johnny
+  overall_preference: writer 10 (33.3%), ai 19 (63.3%), Tie 0 (0.0%), Unsure 1 (3.3%)
+  factuality_preference: writer 2 (6.7%), ai 6 (20.0%), Tie 21 (70.0%), Unsure 1 (3.3%)
+  coverage_preference: writer 8 (26.7%), ai 21 (70.0%), Tie 1 (3.3%), Unsure 0 (0.0%)
+
+charlton
+  overall_preference: writer 8 (26.7%), ai 21 (70.0%), Tie 1 (3.3%), Unsure 0 (0.0%)
+  factuality_preference: writer 7 (23.3%), ai 23 (76.7%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 9 (30.0%), ai 21 (70.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+
+Majority decoded source choices by review item
+  overall_preference: writer 6 (20.0%), ai 20 (66.7%), Tie 1 (3.3%), Unsure 0 (0.0%), Split 3 (10.0%)
+  factuality_preference: writer 1 (3.3%), ai 7 (23.3%), Tie 10 (33.3%), Unsure 0 (0.0%), Split 12 (40.0%)
+  coverage_preference: writer 4 (13.3%), ai 22 (73.3%), Tie 1 (3.3%), Unsure 0 (0.0%), Split 3 (10.0%)
+
+Simple pairwise inter-rater agreement
+  overall_preference: 112/180 agreeing pairs (62.2%)
+  factuality_preference: 58/180 agreeing pairs (32.2%)
+  coverage_preference: 117/180 agreeing pairs (65.0%)

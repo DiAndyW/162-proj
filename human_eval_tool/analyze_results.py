@@ -45,7 +45,6 @@ def percent(numerator: int, denominator: int) -> str:
 def print_distribution(title: str, values: list[str | None]) -> None:
     counts = Counter(value for value in values if value)
     total = sum(counts.values())
-    print(f"\n{title} ({total} judgments)")
     for value in ("writer", "ai", "Tie", "Unsure", "A", "B"):
         if value in counts:
             print(f"  {value}: {counts[value]} ({percent(counts[value], total)})")
@@ -102,10 +101,7 @@ def main() -> None:
             model = key_item.get("model", "unknown")
             model_overall[model].append(decode_choice(row.get("overall_preference"), key_item))
 
-    print(f"Evaluators: {evaluator_count}")
-    print(f"Key rows: {len(key_items)}")
     shared_review_ids = set.intersection(*review_ids_by_file.values()) if review_ids_by_file else set()
-    print(f"Shared review items across all files: {len(shared_review_ids)}")
 
     for field in PREFERENCE_FIELDS:
         print_distribution(f"{field} raw A/B choices", raw_by_field[field])

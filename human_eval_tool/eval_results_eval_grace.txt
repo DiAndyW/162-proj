@@ -1,32 +1,28 @@
-Evaluators: 1
-Key rows: 228
-Shared review items across all files: 30
-
-overall_preference raw A/B choices (30 judgments)
+overall_preference raw A/B choices 
   Tie: 2 (6.7%)
   Unsure: 2 (6.7%)
   A: 13 (43.3%)
   B: 13 (43.3%)
 
-overall_preference decoded source choices (30 judgments)
+overall_preference decoded source choices 
   writer: 6 (20.0%)
   ai: 20 (66.7%)
   Tie: 2 (6.7%)
   Unsure: 2 (6.7%)
 
-factuality_preference raw A/B choices (30 judgments)
+factuality_preference raw A/B choices 
   Tie: 30 (100.0%)
 
-factuality_preference decoded source choices (30 judgments)
+factuality_preference decoded source choices 
   Tie: 30 (100.0%)
 
-coverage_preference raw A/B choices (30 judgments)
+coverage_preference raw A/B choices 
   Tie: 6 (20.0%)
   Unsure: 1 (3.3%)
   A: 12 (40.0%)
   B: 11 (36.7%)
 
-coverage_preference decoded source choices (30 judgments)
+coverage_preference decoded source choices 
   writer: 4 (13.3%)
   ai: 19 (63.3%)
   Tie: 6 (20.0%)

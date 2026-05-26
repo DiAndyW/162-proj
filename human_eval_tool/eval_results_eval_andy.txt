@@ -1,0 +1,39 @@
+overall_preference raw A/B choices 
+  Tie: 3 (10.0%)
+  A: 14 (46.7%)
+  B: 13 (43.3%)
+
+overall_preference decoded source choices 
+  writer: 9 (30.0%)
+  ai: 18 (60.0%)
+  Tie: 3 (10.0%)
+
+factuality_preference raw A/B choices 
+  Tie: 4 (13.3%)
+  A: 12 (40.0%)
+  B: 14 (46.7%)
+
+factuality_preference decoded source choices 
+  writer: 9 (30.0%)
+  ai: 17 (56.7%)
+  Tie: 4 (13.3%)
+
+coverage_preference raw A/B choices 
+  Tie: 3 (10.0%)
+  A: 14 (46.7%)
+  B: 13 (43.3%)
+
+coverage_preference decoded source choices 
+  writer: 9 (30.0%)
+  ai: 18 (60.0%)
+  Tie: 3 (10.0%)
+
+Model-level overall preference rates
+  gemma2:9b: writer 4 (44.4%), ai 5 (55.6%)
+  gpt-4o-mini-2024-07-18: writer 1 (10.0%), ai 9 (90.0%)
+  llama3.1:latest: writer 4 (50.0%), ai 4 (50.0%)
+
+Simple pairwise inter-rater agreement
+  overall_preference: 0/0 agreeing pairs (n/a)
+  factuality_preference: 0/0 agreeing pairs (n/a)
+  coverage_preference: 0/0 agreeing pairs (n/a)
