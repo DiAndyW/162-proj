@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blind Summary Evaluation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Blind Summary Evaluation</h1>
+        <p class="muted">30 pairwise review items from 10 shared sampled articles.</p>
+      </div>
+      <div class="top-actions">
+        <label class="file-button">
+          Load blind JSON
+          <input id="fileInput" type="file" accept=".json,application/json">
+        </label>
+        <button id="resetButton" type="button" class="secondary">Reset</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section id="emptyState" class="empty-state">
+        <h2>Load the blind evaluation file to begin.</h2>
+        <p>
+          Use <code>results/20260519_232753_writer_blind_human_eval.json</code>.
+          The same fixed sample is used for every evaluator.
+        </p>
+      </section>
+
+      <section id="reviewApp" class="review-app hidden" aria-live="polite">
+        <aside class="sidebar" aria-label="Review navigation">
+          <div class="evaluator">
+            <label for="evaluatorId">Evaluator ID</label>
+            <input id="evaluatorId" type="text" placeholder="e.g. eval_01" autocomplete="off">
+          </div>
+
+          <div class="status-box">
+            <div class="status-row">
+              <span>Progress</span>
+              <strong id="progressText">0 / 30</strong>
+            </div>
+            <div class="meter" aria-hidden="true">
+              <div id="progressBar"></div>
+            </div>
+            <p id="sampleText" class="muted"></p>
+          </div>
+
+          <div id="itemList" class="item-list"></div>
+
+          <button id="jumpIncompleteButton" type="button" class="secondary wide">Jump to incomplete</button>
+          <button id="exportButton" type="button" class="primary wide">Finish / Export</button>
+          <p id="saveStatus" class="muted small">Autosave ready.</p>
+        </aside>
+
+        <article class="review-panel">
+          <div class="panel-header">
+            <div>
+              <p id="itemCounter" class="kicker">Item 1 / 30</p>
+              <h2 id="reviewId">Review item</h2>
+            </div>
+            <div class="nav-buttons">
+              <button id="prevButton" type="button" class="secondary">Previous</button>
+              <button id="nextButton" type="button" class="secondary">Next</button>
+            </div>
+          </div>
+
+          <section class="article-section">
+            <h3>Article</h3>
+            <div id="articleText" class="article-text"></div>
+          </section>
+
+          <section class="summaries" aria-label="Summary comparison">
+            <div class="summary-box">
+              <h3>Summary A</h3>
+              <p id="summaryA"></p>
+            </div>
+            <div class="summary-box">
+              <h3>Summary B</h3>
+              <p id="summaryB"></p>
+            </div>
+          </section>
+
+          <section class="judgment-section">
+            <h3>Judgment</h3>
+            <div class="control-grid">
+              <fieldset>
+                <legend>Overall preference</legend>
+                <div data-field="overall_preference" class="choice-row"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Factuality preference</legend>
+                <div data-field="factuality_preference" class="choice-row"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Coverage preference</legend>
+                <div data-field="coverage_preference" class="choice-row"></div>
+              </fieldset>
+            </div>
+            <label class="notes-label" for="notes">Notes</label>
+            <textarea id="notes" rows="4" placeholder="Optional"></textarea>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
