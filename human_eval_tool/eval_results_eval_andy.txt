@@ -1,37 +1,32 @@
-overall_preference raw A/B choices 
-  Tie: 3 (10.0%)
-  A: 14 (46.7%)
-  B: 13 (43.3%)
-
-overall_preference decoded source choices 
-  writer: 9 (30.0%)
-  ai: 18 (60.0%)
-  Tie: 3 (10.0%)
-
-factuality_preference raw A/B choices 
-  Tie: 4 (13.3%)
-  A: 12 (40.0%)
-  B: 14 (46.7%)
-
-factuality_preference decoded source choices 
-  writer: 9 (30.0%)
-  ai: 17 (56.7%)
-  Tie: 4 (13.3%)
-
-coverage_preference raw A/B choices 
-  Tie: 3 (10.0%)
-  A: 14 (46.7%)
-  B: 13 (43.3%)
-
-coverage_preference decoded source choices 
-  writer: 9 (30.0%)
-  ai: 18 (60.0%)
-  Tie: 3 (10.0%)
+  Tie: 5 (10.0%)
+  Unsure: 2 (4.0%)
+  A: 21 (42.0%)
+  B: 22 (44.0%)
+  writer: 22 (44.0%)
+  ai: 21 (42.0%)
+  Tie: 5 (10.0%)
+  Unsure: 2 (4.0%)
+  Tie: 10 (20.0%)
+  A: 17 (34.0%)
+  B: 23 (46.0%)
+  writer: 19 (38.0%)
+  ai: 21 (42.0%)
+  Tie: 10 (20.0%)
+  Tie: 5 (10.0%)
+  Unsure: 2 (4.0%)
+  A: 21 (42.0%)
+  B: 22 (44.0%)
+  writer: 20 (40.0%)
+  ai: 23 (46.0%)
+  Tie: 5 (10.0%)
+  Unsure: 2 (4.0%)
 
 Model-level overall preference rates
+  brio: writer 6 (75.0%), ai 2 (25.0%)
   gemma2:9b: writer 4 (44.4%), ai 5 (55.6%)
   gpt-4o-mini-2024-07-18: writer 1 (10.0%), ai 9 (90.0%)
   llama3.1:latest: writer 4 (50.0%), ai 4 (50.0%)
+  pegasus: writer 7 (87.5%), ai 1 (12.5%)
 
 Simple pairwise inter-rater agreement
   overall_preference: 0/0 agreeing pairs (n/a)
