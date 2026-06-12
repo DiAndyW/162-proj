@@ -1,0 +1,28 @@
+overall_preference raw A/B choices 
+  A: 5 (50.0%)
+  B: 5 (50.0%)
+
+overall_preference decoded source choices 
+  writer: 10 (100.0%)
+
+factuality_preference raw A/B choices 
+  A: 5 (50.0%)
+  B: 5 (50.0%)
+
+factuality_preference decoded source choices 
+  writer: 10 (100.0%)
+
+coverage_preference raw A/B choices 
+  A: 5 (50.0%)
+  B: 5 (50.0%)
+
+coverage_preference decoded source choices 
+  writer: 10 (100.0%)
+
+Model-level overall preference rates
+  text-davinci-002: writer 10 (100.0%), ai 0 (0.0%)
+
+Simple pairwise inter-rater agreement
+  overall_preference: 0/0 agreeing pairs (n/a)
+  factuality_preference: 0/0 agreeing pairs (n/a)
+  coverage_preference: 0/0 agreeing pairs (n/a)

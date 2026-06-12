@@ -1,0 +1,35 @@
+overall_preference raw A/B choices 
+  A: 4 (40.0%)
+  B: 6 (60.0%)
+
+overall_preference decoded source choices 
+  writer: 9 (90.0%)
+  ai: 1 (10.0%)
+
+factuality_preference raw A/B choices 
+  Tie: 1 (10.0%)
+  A: 3 (30.0%)
+  B: 6 (60.0%)
+
+factuality_preference decoded source choices 
+  writer: 6 (60.0%)
+  ai: 3 (30.0%)
+  Tie: 1 (10.0%)
+
+coverage_preference raw A/B choices 
+  Tie: 2 (20.0%)
+  A: 5 (50.0%)
+  B: 3 (30.0%)
+
+coverage_preference decoded source choices 
+  writer: 6 (60.0%)
+  ai: 2 (20.0%)
+  Tie: 2 (20.0%)
+
+Model-level overall preference rates
+  text-davinci-002: writer 9 (90.0%), ai 1 (10.0%)
+
+Simple pairwise inter-rater agreement
+  overall_preference: 0/0 agreeing pairs (n/a)
+  factuality_preference: 0/0 agreeing pairs (n/a)
+  coverage_preference: 0/0 agreeing pairs (n/a)

@@ -1,0 +1,54 @@
+Human Eval Summary
+============================
+Total judgments: 40
+Articles across all files: 10
+
+overall_preference
+  writer: 35 (87.5%)
+  ai: 4 (10.0%)
+  Tie: 1 (2.5%)
+  Unsure: 0 (0.0%)
+
+factuality_preference
+  writer: 26 (65.0%)
+  ai: 3 (7.5%)
+  Tie: 11 (27.5%)
+  Unsure: 0 (0.0%)
+
+coverage_preference
+  writer: 34 (85.0%)
+  ai: 4 (10.0%)
+  Tie: 2 (5.0%)
+  Unsure: 0 (0.0%)
+
+Evaluator-level decoded source choices
+
+andy
+  overall_preference: writer 9 (90.0%), ai 1 (10.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  factuality_preference: writer 6 (60.0%), ai 3 (30.0%), Tie 1 (10.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 6 (60.0%), ai 2 (20.0%), Tie 2 (20.0%), Unsure 0 (0.0%)
+
+grace
+  overall_preference: writer 7 (70.0%), ai 2 (20.0%), Tie 1 (10.0%), Unsure 0 (0.0%)
+  factuality_preference: writer 0 (0.0%), ai 0 (0.0%), Tie 10 (100.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 9 (90.0%), ai 1 (10.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+
+johnny
+  overall_preference: writer 9 (90.0%), ai 1 (10.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  factuality_preference: writer 10 (100.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 9 (90.0%), ai 1 (10.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+
+charlton
+  overall_preference: writer 10 (100.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  factuality_preference: writer 10 (100.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+  coverage_preference: writer 10 (100.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%)
+
+Majority decoded source choices by review item
+  overall_preference: writer 9 (90.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%), Split 1 (10.0%)
+  factuality_preference: writer 9 (90.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%), Split 1 (10.0%)
+  coverage_preference: writer 9 (90.0%), ai 0 (0.0%), Tie 0 (0.0%), Unsure 0 (0.0%), Split 1 (10.0%)
+
+Simple pairwise inter-rater agreement
+  overall_preference: 47/60 agreeing pairs (78.3%)
+  factuality_preference: 23/60 agreeing pairs (38.3%)
+  coverage_preference: 45/60 agreeing pairs (75.0%)
